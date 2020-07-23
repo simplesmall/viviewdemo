@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import BUS from '@/components/BUS'
 import DrawBoard from "../components/DrawBoard";
 import XTest from "../components/XTest";
+import Main from "../views/Main";
 
 Vue.use(Router)
 
@@ -28,5 +29,10 @@ export default new Router({
       name:'XTest',
       component: XTest
     },
+    {
+      path: '/main',
+      name: 'Main',
+      component: Main
+    }
   ]
 })
