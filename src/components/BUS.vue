@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <!--<my-a></my-a>
+    <my-a></my-a>
     <my-b></my-b>
 
     <template id="c">
@@ -8,7 +8,7 @@
         <h3>BUS组件：{{name}}，{{age}}</h3>
       </div>
     </template>
-    <NameListener v-bind:name="name" :age="age"/>-->
+    <NameListener v-bind:name="name" :age="age"/>
     <!--  模拟输入画板的图片地址  -->
     <input type="button" value="传入一个dateURL" @click="inputURL(tempDataURL)">
     <!-- 画板组件,单一入口 dataURL 和出口 reveiveFileURL -->

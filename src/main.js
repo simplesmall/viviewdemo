@@ -14,10 +14,13 @@ import saveSvgAsPng from 'save-svg-as-png'
 Vue.use(saveSvgAsPng)
 Vue.use(ElementUI)
 
+import store from "../src/store/store.js";
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
